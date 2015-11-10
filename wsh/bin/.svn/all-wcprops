@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin
+END
+7z.dll
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/7z.dll
+END
+options-begin.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/options-begin.txt
+END
+options-end.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/options-end.txt
+END
+rm.exe
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/rm.exe
+END
+7z.exe
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/7z.exe
+END
+7-zip.dll
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/7-zip.dll
+END
+msys-1.0.dll
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/msys-1.0.dll
+END
+zipsfx
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/367/trunk/shell-scripts/wsh/bin/zipsfx
+END
