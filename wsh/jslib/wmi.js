@@ -8,9 +8,13 @@ var wmi = {
 	},	
 	services : {
 		createProxy : function( srvc ) {
-			var res = { 
+			/**
+			 * @class WmiService
+			 */
+			var wmiService = { 
 				srvc : srvc,
 				displayName : srvc.DisplayName,
+				
 				name : srvc.Name,
 				state : srvc.State,
 				getState : function(){ 
@@ -175,7 +179,7 @@ var wmi = {
 				}
 			};
 			
-			return res;
+			return wmiService;
 		},
 
 		list : function(){
