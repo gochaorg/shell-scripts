@@ -24,5 +24,59 @@ h1, h2, h3, h4, h5 {
 
 a {
 	color: #003BBB;
+	text-decoration: none;
 }
 
+.menu {
+    /* float: left; */
+    /* width: 85mm; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+    background-color: #ddd;
+    font-size: 10pt;
+	/*
+    padding-left: 5mm;
+    padding-bottom: 6mm;
+    padding-top: 3mm;
+	*/
+}
+
+.menu ul {
+    list-style: none;
+    margin-left: 0px;
+    padding-left: 4mm;
+    margin-top: 0mm;
+    margin-bottom: 0mm;
+}
+
+.menu ul li {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.menu > .title {
+	margin-left: 4mm;
+}
+
+.menu .title {
+    margin-top: 2mm;
+	font-family: 'Open Sans Condensed', sans-serif;
+	
+    font-size: 13pt;
+    border-bottom-style: solid;
+    border-bottom-width: 0.6mm;
+    border-bottom-color: #999;
+}
+
+.menu > div:first-child {
+    margin-top: 0mm;    
+}
+
+.help .jsclass {
+    color: #999;
+    font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}

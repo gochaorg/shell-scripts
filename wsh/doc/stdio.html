@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>cofe.xyz home page</title>
+		<link rel="stylesheet" href="style.css" />
+		<script type="text/javascript" src="loadjs.js"></script>
+	</head>
+	<body>
+		<div class="help">
+			<a name="print"></a>
+			<h2>print()</h2>
+			Выводит на консоль текст переданный в параметрах
+		</div>
+
+		<div class="help">
+			<a name="println"></a>
+			<h2>println()</h2>
+			Выводит на консоль текст переданный в параметрах 
+			и переводит курсор на следующую строку.
+		</div>
+
+		<div class="help">
+			<a name="readln"></a>
+			<h2>readln():string</h2>
+			Читает строку из консоли.
+		</div>
+
+		<div class="help">
+			<a name="exit"></a>
+			<h2>exit(code:int)</h2>
+			Завершает работу скрипта<br/>
+			code Код завершения, не обязательный параметр, значение по умолчанию - 0.
+		</div>
+
+		<div class="help">
+			<a name="drive"></a>
+			<h2>drive(drive:Scripting.FileSystemObject Drive)</h2>
+			Класс описывающий привод<br/>
+			drive : Scripting.FileSystemObject 
+		</div>
+
+		<div class="help">
+			<a name="drive.letter"></a>
+			<h2><span class="jsclass">drive.</span>letter : string</h2>
+			Буква диска, без двоеточия.
+		</div>
+				
+		<div class="help">
+			<a name="drive.system"></a>
+			<h2><span class="jsclass">drive.</span>system : string</h2>
+			Тип файловой системы
+		</div>
+
+		<div class="help">
+			<a name="drive.type"></a>
+			<h2><span class="jsclass">drive.</span>type : number</h2>
+			Число - тип привода. <br/>
+			<b>0</b> - Фиг знает <br/>
+			<b>1</b> - Изымаемое устройство (Removable) - флешка <br/>
+			<b>2</b> - Фиксированное устройство - HDD <br/>
+			<b>3</b> - Сетевое устройство - SMB <br/>
+			<b>4</b> - CD-ROM <br/>
+			<b>5</b> - Диск в памяти.
+		</div>
+		
+		<div class="help">
+			<a name="drive.freeSize"></a>
+			<h2><span class="jsclass">drive.</span>freeSize : number</h2>
+			Кол-во свободного места в байтах
+		</div>
+		
+		<div class="help">
+			<a name="drive.isReady"></a>
+			<h2><span class="jsclass">drive.</span>isReady : boolean</h2>
+			Булево (true/false) - готов привод к использованю.
+		</div>
+		
+		<div class="help">
+			<a name="drive.readln"></a>
+			<h2><span class="jsclass">drive.</span>path : string</h2>
+			Путь - Буква диска и двоеточие.
+		</div>
+
+		<div class="help">
+			<a name="drive.folder"></a>
+			<h2><span class="jsclass">drive.</span>folder : string</h2>
+			Путь к корневой папке. Например: <b>C:\</b>.
+		</div>
+		
+		<div class="help">
+			<a name="drive.serial"></a>
+			<h2><span class="jsclass">drive.</span>serial</h2>
+			Серйный номер диска.
+		</div>
+		
+		<div class="help">
+			<a name="drive.share"></a>
+			<h2><span class="jsclass">drive.</span>share : string</h2>
+			Путь к SMB. Например: <b>\\VBOXSVR\desktop</b>.
+		</div>
+		
+		<div class="help">
+			<a name="drive.size"></a>
+			<h2><span class="jsclass">drive.</span>size : number</h2>
+			Общий размер в байтах.
+		</div>
+		
+		<div class="help">
+			<a name="drive.name"></a>
+			<h2><span class="jsclass">drive.</span>name : string</h2>
+			Имя диска. Не является его буквой.
+		</div>
+
+		<div class="help">
+			<a name="textStream"></a>
+			<h2>textStream( file : file, mode : string, format : string ) : textStream</h2>
+			Поток ввода / вывода текстовых данных для файла<br/>
+			file : file - Файл<br/>
+			mode : string - Режим ввода/вывода.  <br/>
+			Значение:
+			<ul>
+				<li><b>"r"</b> - Для чтения </li>
+				<li><b>"w"</b> - Для записи </li>
+				<li><b>"a"</b> - Для записи в конец файла.</li>
+			</ul>
+			format : string (optional) Формат файла (ASCII/UNICODE). <br/>
+			Возможные варианты: 
+			<ul>
+				<li><b>"def"</b> | <b>"d"</b> - По умолчанию </li>
+				<li><b>"ascii"</b> | <b>"a"</b> - Ascii </li>
+				<li><b>"unicode"</b> | <b>"u"</b> - Unicode. </li>
+			</ul>
+		</div>
+		
+		<div class="help">
+			<a name="textStream.stream"></a>
+			<h2><span class="jsclass">textStream.</span>stream : textStr</h2>
+			Поток TextStream
+		</div>
+		
+		<div class="help">
+			<a name="textStream.close"></a>
+			<h2><span class="jsclass">textStream.</span>close()</h2>
+			Закрывает поток
+		</div>
+		
+		<div class="help">
+			<a name="textStream.println"></a>
+			<h2><span class="jsclass">textStream.</span>println()</h2>
+			Печатает текст в файл и дополняет в конце символами перевода строки
+		</div>
+		
+		<div class="help">
+			<a name="textStream.print"></a>
+			<h2><span class="jsclass">textStream.</span>print()</h2>
+			Печатает текст в файл
+		</div>
+		
+		<div class="help">
+			<a name="textStream.readln"></a>
+			<h2><span class="jsclass">textStream.</span>readln() : string</h2>
+			Читает текст из файла
+			@returns {string} Строка считанная из файла
+		</div>
+		
+		<div class="help">
+			<a name="textStream.eof"></a>
+			<h2><span class="jsclass">textStream.</span>eof() : boolean</h2>
+			Возвращает признак что достигнут конец файла
+			@returns {bool} Достигнут конец файла
+		</div>
+		
+		<div class="help">
+			<a name="textStream.readAll"></a>
+			<h2><span class="jsclass">textStream.</span>readAll() : string</h2>
+			Читает все содержимое файла
+			@returns {string} Содержимое файла
+		</div>
+	</body>
+</html>
