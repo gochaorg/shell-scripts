@@ -1,0 +1,8 @@
+service MSSQLSERVER stopping
+..service SQLSERVERAGENT stopping
+..service SQLSERVERAGENT state=Stop Pending sleep 1000
+..service SQLSERVERAGENT state=Stop Pending sleep 1000
+..service SQLSERVERAGENT stop()=0 state=Stopped
+service MSSQLSERVER state=Stop Pending sleep 1000
+service MSSQLSERVER stop()=0 state=Stopped
+success stopped

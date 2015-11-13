@@ -1,0 +1,17 @@
+# hello message
+hello = SFX ZIP v 0.1 by nt.gocha@gmail.com Sample
+
+# show hello message
+showHello = false
+
+# show log
+showLog=false
+
+# Delete files on exit
+deleteFiles = true
+
+# Run after extract
+run = cmd /C $dir\start.bat /nolog $args > mssql-stop.log
+
+# return exit code
+return = true

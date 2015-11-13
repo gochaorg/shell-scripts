@@ -1,0 +1,7 @@
+service SQLSERVERAGENT starting
+..service MSSQLSERVER starting
+..service MSSQLSERVER state=Start Pending sleep 1000
+..service MSSQLSERVER start()=0 state=Running
+service SQLSERVERAGENT state=Start Pending sleep 1000
+service SQLSERVERAGENT start()=0 state=Running
+success started
